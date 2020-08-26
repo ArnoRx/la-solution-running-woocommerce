@@ -14,11 +14,11 @@
  *
  * @wordpress-plugin
  * Plugin Name:       La Solution Running
- * Plugin URI:        http://example.com/la-solution-running-uri/
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Plugin URI:        lasolution-running.frla-solution-running-uri/
+ * Description:       Ajoute les fontionnalités nécéssaire à La Solution Running
  * Version:           1.0.0
- * Author:            Your Name or Your Company
- * Author URI:        http://example.com/
+ * Author:            Arnaud Rx
+ * Author URI:        lasolution-running.fr
  * License:           None
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       la-solution-running

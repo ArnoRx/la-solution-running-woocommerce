@@ -1,0 +1,16 @@
+{
+    "name": "lsr/la-solution-running",
+    "type": "wordpress-plugin",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Arnaud Roux",
+            "email": "arnaud_nuajik@axdev.io"
+        }
+    ],
+    "require": {
+        "roots/wordpress": "*",
+        "roots/wp-config": "*",
+        "wpackagist-plugin/woocommerce": "*",
+    }
+}

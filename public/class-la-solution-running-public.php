@@ -100,4 +100,21 @@ class La_Solution_Running_Public {
 
 	}
 
+	public function enqueue_rest_routes() {
+		/**
+		 * Register all API route from la-solution-running-public-api.php
+		 */
+		$method_collection = new La_Solution_Running_Public_API();
+
+		register_rest_route( 'lasolution-api', 'number-of-this-product-with-name/(?P<name>[\w|\W]+)', array(
+			'methods' => 'GET',
+			'callback' => array( $method_collection, 'get_number_of_products_with_this_name_exists'),
+			)
+		);
+		register_rest_route( 'lasolution-api', 'number-of-this-variation-with-sku/(?P<sku>[\w|\W]+)', array(
+			'methods' => 'GET',
+			'callback' => array( $method_collection, 'get_number_of_variation_with_this_ean_exists'),
+			)
+		);
+	}
 }

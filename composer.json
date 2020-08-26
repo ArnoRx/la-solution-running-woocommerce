@@ -11,6 +11,6 @@
     "require": {
         "roots/wordpress": "*",
         "roots/wp-config": "*",
-        "wpackagist-plugin/woocommerce": "*",
+        "wpackagist-plugin/woocommerce": "*"
     }
 }
